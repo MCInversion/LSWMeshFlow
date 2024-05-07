@@ -26,6 +26,56 @@ cd LSWMeshFlow && mkdir build && cd build && cmake .. && make
 ```
 This repo is a fork of the PMP Library: https://www.pmp-library.org.
 
+### Additional dependencies include:
+
+- Eigen
+- Glew
+- Glfw
+- GoogleTest
+- Imgui
+- [Nanoflann](https://github.com/jlblancoc/nanoflann)
+- Rply
+- [Quickhull](https://github.com/akuukka/quickhull)
+
+## Functionality 
+
+This repository focuses primarly on the evaluation of the Lagrangian Shrink Wrapping functionality containing tests:
+- SDF Tests
+- Sphere Test
+- Evolver Tests
+- Old Armadillo LSW Test
+- Isosurface Evolver Tests
+- Sheet Evolver Test
+- Brain Evolver Tests
+- Remeshing Tests
+- Mobius Strip Voxelization
+- Metaball Test
+- Imported Obj Metrics Eval
+- Simple Bunny OBJ Sampling Demo
+- PDaniel Pt Cloud PLY Export
+- Pt Cloud To DF
+- PDaniel Pt Cloud Comparison Test
+- Repulsive Surf Result Evaluation
+- Histogram Result Evaluation
+- Old Result Jacobian Metric Eval
+- Hausdorff Distance Measurements Per Time Step
+- Direct Higher Genus Pt Cloud Sampling
+- Higher Genus Pt Cloud LSW
+- TriTri Intersection Tests
+- Mesh Self Intersection Tests
+- Hurtado Meshes Isosurface Evolver Tests
+- Hurtado Trex Icosphere LSW
+- Import VTI Debug Tests
+- Convex Hull Tests
+- Convex Hull Remeshing Tests
+- Convex Hull Evolver Tests
+- IcoSphere Evolver Tests
+
+To run a test in `Main.cpp`, set its flag to true:
+```cpp
+constexpr bool performPtCloudToDF = true;
+```
+
 ### Article Title:
 Automated Surface Extraction: Adaptive Remeshing Meets Lagrangian Shrink-Wrapping
 
