@@ -11,6 +11,21 @@ and supports any starting surface, such as remeshed MarchingCubes isosurface:
 
 ![RockerArmShrinkWrap](https://github.com/MCInversion/LSWMeshFlow/blob/main/images/RockerArmShrinkWrap.png)
 
+## Dev/Setup
+
+Clone the repository:
+
+```sh
+git clone --recursive https://github.com/MCInversion/LSWMeshFlow.git
+```
+
+Configure and build:
+
+```sh
+cd LSWMeshFlow && mkdir build && cd build && cmake .. && make
+```
+This repo is a fork of the PMP Library: https://www.pmp-library.org.
+
 ### Article Title:
 Automated Surface Extraction: Adaptive Remeshing Meets Lagrangian Shrink-Wrapping
 
