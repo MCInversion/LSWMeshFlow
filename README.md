@@ -4,8 +4,11 @@
 ## An Experimental Console App for Shrink-Wrapping Meshes, Point Clouds and SDFs.
 
 Produces watertight envelopes:
-<img src="https://github.com/MCInversion/LSWMeshFlow/blob/main/images/BPAvsLSW.png" data-canonical-src="https://github.com/MCInversion/LSWMeshFlow/blob/main/images/BPAvsLSW.png" width="200" height="400" />
+
+<img src="https://github.com/MCInversion/LSWMeshFlow/blob/main/images/BPAvsLSW.png" data-canonical-src="https://github.com/MCInversion/LSWMeshFlow/blob/main/images/BPAvsLSW.png" width="400" />
+
 and supports any starting surface, such as remeshed MarchingCubes isosurface:
+
 ![RockerArmShrinkWrap](https://github.com/MCInversion/LSWMeshFlow/blob/main/images/RockerArmShrinkWrap.png)
 
 ### Article Title:
