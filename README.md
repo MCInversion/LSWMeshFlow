@@ -19,6 +19,12 @@ Clone the repository:
 git clone --recursive https://github.com/MCInversion/LSWMeshFlow.git
 ```
 
+If you've already cloned the repo without the `--recursive` flag, check out the submodules in the cloned repo's directory using:
+
+```sh
+git submodule update
+```
+
 Configure and build:
 
 ```sh
